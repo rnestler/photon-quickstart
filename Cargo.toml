@@ -8,10 +8,12 @@ photon-hal = { git = "https://github.com/japaric/photon-hal" }
 photon = { git = "https://github.com/japaric/photon" }
 
 [profile.dev]
+codegen-units = 1
 debug = false
 debug-assertions = false
 lto = true
 opt-level = 3
 
 [profile.release]
+codegen-units = 1
 lto = true
