@@ -4,8 +4,8 @@ name = "photon-quickstart"
 version = "0.1.0"
 
 [dependencies]
-photon-hal = { git = "https://github.com/japaric/photon-hal" }
-photon = { git = "https://github.com/japaric/photon" }
+photon-hal = { path = "../photon-hal" }
+photon = { path = "../photon" }
 
 [profile.dev]
 codegen-units = 1
